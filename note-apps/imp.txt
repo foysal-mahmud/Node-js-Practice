@@ -1,0 +1,12 @@
+node app.js
+
+Add notes: node app.js add --title="Second Post" --body="This is second post"
+Remove notes: node app.js remove --title="t"
+List notes: node app.js list
+Read notes: node app.js read --title="First Post"
+
+Debugger: chrome://inspect/#devices
+--Discover Network Target = (add this 2) localhost:9229, 127.0.0.1:9229
+
+debug> restart
+Stop =  ctrl+c (2 times)
